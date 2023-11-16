@@ -10,6 +10,18 @@
   src: url(/Fonts/Poppins/Poppins-Regular.ttf);
 }
 
+@font-face {
+  font-family: "Jost";
+  font-weight: 700;
+  src: url(/Fonts/Jost/Jost-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Jost";
+  font-weight: 400;
+  src: url(/Fonts/Jost/);
+}
+
 :root {
   --blue: #2000e7;
   --secondary-blue: rgba(67, 186, 253, 0.06);
@@ -28,19 +40,17 @@ body {
 header {
   justify-content: space-between;
   align-items: baseline;
-  padding: 45px 0 201px 0;
+  padding: 45px 78px 201px 78px;
 }
 
 .title-name {
   margin: 0;
-  padding-left: 78px;
   font-size: 48px;
   color: #0e0578;
 }
 
 .nav-list {
   list-style: none;
-  padding-right: 78px;
   width: 60vw;
   justify-content: space-around;
 }
@@ -175,7 +185,7 @@ p {
 
 .forth-section {
   background-color: var(--secondary-blue);
-  padding: 0 78px 0;
+  padding: 0 78px 208px 78px;
 }
 
 .forth-section_subcontainer {
@@ -224,4 +234,102 @@ p {
   left: 37vw;
   position: absolute;
   overflow: hidden;
+}
+
+footer {
+  padding: 132px 78px 58px 78px;
+  background-color: var(--orange);
+  font-family: "Jost";
+}
+
+.above-line {
+  justify-content: space-between;
+  height: 603px;
+}
+
+footer a {
+  color: black;
+  font-size: 31px;
+}
+
+.title-and-buttons {
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+.merged-buttons {
+  position: relative;
+}
+
+.black-button {
+  width: 323px;
+  height: 97px;
+  border-radius: 20px;
+  font-size: 24px;
+  font-size: 31px;
+  font-family: "Jost";
+  font-weight: 700;
+  text-align: left;
+  background-color: black;
+  color: white;
+  padding-left: 30px;
+}
+
+.pink-button {
+  width: 178px;
+  height: 97px;
+  border-radius: 20px;
+  padding-left: 20px;
+  font-size: 24px;
+  font-size: 31px;
+  font-family: "Jost";
+  font-weight: 700;
+  text-align: left;
+  background: #f965fc;
+  border: none;
+  color: white;
+  position: absolute;
+  left: 205px;
+  z-index: 1;
+}
+
+.column-flex {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+hr {
+  border: 2px solid black;
+}
+
+.below-line {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.copyright p {
+  font-size: 32px;
+}
+
+.logos {
+  justify-content: space-between;
+  column-gap: 85px;
+}
+
+/*У yotube кривой svg поэтому так */
+.youtube {
+  position: relative;
+  top: 25px;
 }

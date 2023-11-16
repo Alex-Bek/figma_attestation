@@ -1,96 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="styles.css">
-    
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header class="flex-item">
-        <div class="">
-            <h2 class="title-name">UniDesign</h1>
-        </div>
-        <nav>
-            <ul class="nav-list flex-item">
-                <li><a href="" class="nav-item">About Me</a></li>
-                <li><a href="" class="nav-item">Projects</a></li>
-                <li><a href="" class="nav-item">Contacts</a></li>
-                <li><a href="" class="nav-item">Hire Me</a></li>
-            </ul>
-        </nav>
+      <div class="">
+        <h2 class="title-name">UniDesign</h2>
+      </div>
+      <nav>
+        <ul class="nav-list flex-item">
+          <li><a href="#about-me" class="nav-item">About Me</a></li>
+          <li><a href="#my-projects" class="nav-item">Projects</a></li>
+          <li><a href="#contact-me" class="nav-item">Contacts</a></li>
+          <li><a href="" class="nav-item">Hire Me</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section class="first-section flex-item">
-            <div class="intro">
-                <h3 class="welcome-text">Welcome To My PortFolio</h2>
-                <h1>Hi , I am Steven<br>Ui/UX <span class="yellow">Designer</span></h1>
-                <p>Lorem Ipsum dolar sit amet, consectetur adipicsing elit. Locus odio et, plateo erat est sed turpis hoc equit</p>
-                <div class="first-section_buttons">
-                    <button class="blue rounded-button">Hire me</button>
-                    <button class="white rounded-button">My projects</button>
-                </div>
-            </div>
-            <div class="Portrait">
-                <img src="Images/Portrait.png" alt="Portrait">
-            </div>
-        </section>
-        <section class="second-section flex-item">
-            <div class="about-me flex-item">
-                <h2 class="spaced">About Me</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has .</p>
-                <button class="blue rounded-button">Hire me</button>
-            </div>
-            <div class="cyber">
-                <img src="/Images/cyber.png" alt="Meta-dude">
-            </div>
-        </section>
-        <section class="third-section">
-            <div class="section-header flex-item">
-                <h2 class="spaced">My Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing</p>
-            </div>
-            <div class="images flex-item">
-                <div class="row flex-item">
-                    <img src="/Images/SomeWindow.png" alt="Some Window">
-                    <img src="/Images/Rectangle 35.png" alt="Car">
-                    <img src="/Images/SomeWindow.png" alt="Some Window">
-                </div>
-                <div class="row flex-item">
-                    <img src="/Images/Woman.png" alt="Woman">
-                    <img src="/Images/Woman.png" alt="Woman">
-                    <img src="/Images/Woman.png" alt="Woman">
-                </div>
-                <div class="row flex-item">
-                    <img src="/Images/A.png" alt="A">
-                    <img src="/Images/A.png" alt="A">
-                    <img src="/Images/A.png" alt="A">
-                </div>
-            </div>
-        </section>
-        <section class="forth-section">
-            <div class="section-header flex-item">
-                <h2 class="spaced">Contact Me</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing</p>
-            </div>
-            <div class="forth-section_subcontainer flex-item">
-                <div class="inputs flex-item">
-                    <input type="text" class="input" placeholder="   Email">
-                    <input type="text" class="input" placeholder="   Password">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="   Message.." class="input"></textarea>
-                    <button class="squared-button">Contact</button>
-                </div>
-                <div class="image-container">
-                    <img class="laptop-man" src="/Images/GuyWithLaptop.png" alt="Man with laptop">
-                </div>
-            </div>
-        </section>
+      <section class="first-section flex-item">
+        <div class="intro">
+          <h3 class="welcome-text">Welcome To My PortFolio</h3>
+          <h1>
+            Hi , I am Steven<br />Ui/UX <span class="yellow">Designer</span>
+          </h1>
+          <p>
+            Lorem Ipsum dolar sit amet, consectetur adipicsing elit. Locus odio
+            et, plateo erat est sed turpis hoc equit
+          </p>
+          <div class="first-section_buttons">
+            <button class="blue rounded-button">Hire me</button>
+            <button class="white rounded-button">My projects</button>
+          </div>
+        </div>
+        <div class="Portrait">
+          <img src="Images/Portrait.png" alt="Portrait" />
+        </div>
+      </section>
+      <section class="second-section flex-item" id="about-me">
+        <div class="about-me flex-item">
+          <h2 class="spaced">About Me</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has .
+          </p>
+          <button class="blue rounded-button">Hire me</button>
+        </div>
+        <div class="cyber">
+          <img src="/Images/cyber.png" alt="Meta-dude" />
+        </div>
+      </section>
+      <section class="third-section" id="my-projects">
+        <div class="section-header flex-item">
+          <h2 class="spaced">My Projects</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing</p>
+        </div>
+        <div class="images flex-item">
+          <div class="row flex-item">
+            <img src="/Images/SomeWindow.png" alt="Some Window" />
+            <img src="/Images/Rectangle 35.png" alt="Car" />
+            <img src="/Images/SomeWindow.png" alt="Some Window" />
+          </div>
+          <div class="row flex-item">
+            <img src="/Images/Woman.png" alt="Woman" />
+            <img src="/Images/Woman.png" alt="Woman" />
+            <img src="/Images/Woman.png" alt="Woman" />
+          </div>
+          <div class="row flex-item">
+            <img src="/Images/A.png" alt="A" />
+            <img src="/Images/A.png" alt="A" />
+            <img src="/Images/A.png" alt="A" />
+          </div>
+        </div>
+      </section>
+      <section class="forth-section" id="contact-me">
+        <div class="section-header flex-item">
+          <h2 class="spaced">Contact Me</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing</p>
+        </div>
+        <div class="forth-section_subcontainer flex-item">
+          <div class="inputs flex-item">
+            <input type="text" class="input" placeholder="   Email" />
+            <input type="text" class="input" placeholder="   Password" />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="   Message.."
+              class="input"
+            ></textarea>
+            <button class="squared-button">Contact</button>
+          </div>
+          <div class="image-container">
+            <img
+              class="laptop-man"
+              src="/Images/GuyWithLaptop.png"
+              alt="Man with laptop"
+            />
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-
+      <div class="above-line flex-item">
+        <div class="flex-item title-and-buttons">
+          <h2 class="title-name spaced">UniDesign</h2>
+          <div class="merged-buttons">
+            <button class="black-button">Email</button>
+            <button class="pink-button">Subscribe</button>
+          </div>
+        </div>
+        <div class="column-flex">
+          <a href="#" class="bold">Platform</a>
+          <a href="#">Home</a>
+          <a href="#">Overview</a>
+          <a href="#">Pricing</a>
+          <a href="#">About</a>
+        </div>
+        <div class="column-flex">
+          <a href="#" class="bold">Help</a>
+          <a href="#">How it works?</a>
+          <a href="#">Pay?</a>
+          <a href="#">Question?</a>
+          <a href="#">Contact?</a>
+        </div>
+        <div class="column-flex">
+          <a href="" class="bold">Contact</a>
+          <a href="">(+000) 1234-6789</a>
+          <a href=""
+            >116 Archlor Road <br />
+            Broadlaband,<br />
+            NewYork (NYC) <br />
+            1205</a
+          >
+        </div>
+      </div>
+      <hr />
+      <div class="flex-item below-line">
+        <div class="copyright">
+          <p>Copyrighted 2020-2023</p>
+          <p>All Rights Reserved.</p>
+        </div>
+        <div class="flex-item logos">
+          <img src="/Images/Youtube.svg" alt="youtube" class="youtube" />
+          <img src="/Images/Instagram.svg" alt="instagram" />
+          <img src="/Images/FB.svg" alt="facebook" />
+          <img src="/Images/Linkedin.svg" alt="Linkedin" />
+        </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
