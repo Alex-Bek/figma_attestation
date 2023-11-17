@@ -66,7 +66,7 @@
         <div class="images flex-item">
           <div class="row flex-item">
             <img src="/Images/SomeWindow.png" alt="Some Window" />
-            <img src="/Images/Rectangle 35.png" alt="Car" />
+            <img src="/Images/Rectangle35.png" alt="Car" />
             <img src="/Images/SomeWindow.png" alt="Some Window" />
           </div>
           <div class="row flex-item">
@@ -87,19 +87,32 @@
           <p>Lorem Ipsum is simply dummy text of the printing</p>
         </div>
         <div class="forth-section_subcontainer flex-item">
-          <div class="inputs flex-item">
-            <input type="text" class="input" placeholder="   Email" />
-            <input type="text" class="input" placeholder="   Password" />
+          <form class="inputs flex-item" action="/submit-form" method="post">
+            <label class="sro" for="email">Email:</label>
+            <input
+              id="email"
+              type="text"
+              class="input"
+              placeholder="   Email"
+            />
+            <label class="sro" for="password">Password:</label>
+            <input
+              id="password"
+              type="text"
+              class="input"
+              placeholder="   Password"
+            />
+            <label class="sro" for="message">Message:</label>
             <textarea
-              name=""
-              id=""
+              name="message"
+              id="message"
               cols="30"
               rows="10"
               placeholder="   Message.."
               class="input"
             ></textarea>
-            <button class="squared-button">Contact</button>
-          </div>
+            <input type="submit" value="Contact" class="squared-button" />
+          </form>
           <div class="image-container">
             <img
               class="laptop-man"
